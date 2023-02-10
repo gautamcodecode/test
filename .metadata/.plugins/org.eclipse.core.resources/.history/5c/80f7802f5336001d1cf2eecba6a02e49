@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Employee{
+	int empid;
+	String empname;
+	int deptid;
+	int salary;
+	String status="on duty";
+	public Employee(int empid, String empname, int deptid, int salary, String status) {
+		super();
+		this.empid = empid;
+		this.empname = empname;
+		this.deptid = deptid;
+		this.salary = salary;
+		this.status = status;
+	}
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public int getDeptid() {
+		return deptid;
+	}
+	public void setDeptid(int deptid) {
+		this.deptid = deptid;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", empname=" + empname + ", deptid=" + deptid + ", salary=" + salary
+				+ ", status=" + status + "]";
+	}
+	
+}
+public class collection {
+public static void main(String[] args) {
+	List<Employee> emp=new ArrayList<>();
+	
+	
+
+}
+}
